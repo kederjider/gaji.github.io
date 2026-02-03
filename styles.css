@@ -1,138 +1,138 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f3f3f3;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f3f3f3;
 }
 
 .container {
-    background: #ffffff;
-    padding: 20px 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
-    width: 90%;
-    text-align: center;
+  background: #ffffff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+  width: 90%;
+  text-align: center;
 }
 
 .container:hover {
-    box-shadow: 0 8px 15px rgba(76, 64, 236, 0.3);
-    transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(76, 64, 236, 0.3);
+  transform: translateY(-5px);
 }
 
 h2 {
-    margin-bottom: 20px;
-    color: #333;
+  margin-bottom: 20px;
+  color: #333;
 }
 
 h5 {
-    margin-bottom: 20px;
-    color: #333;
+  margin-bottom: 20px;
+  color: #333;
 }
 
-
 button {
-    margin-top: 20px;
-    width: 100%;
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
 }
 
 button:hover {
-    background-color: #3b8f3f;
+  background-color: #3b8f3f;
 }
 
 .result {
-    margin-top: 20px;
-    font-size: 18px;
-    color: #333;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
 }
-span{
-    color: #ff0000;
+span {
+  color: #ff0000;
 }
 button {
-    margin-top: 10px; /* Mengatur jarak antar tombol */
-    width: 100%;
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
+  margin-top: 10px; /* Mengatur jarak antar tombol */
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
 }
 
 button#reset-btn {
-    background-color: #f44336; /* Warna merah untuk tombol reset */
+  background-color: #f44336; /* Warna merah untuk tombol reset */
 }
 
 button#reset-btn:hover {
-    background-color: #b31f1f;
+  background-color: #b31f1f;
 }
 
-
 /* Gaya untuk pop-up */
-    #popup {
-        display: none;
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: white;
-        border: 1px solid #ccc;
-        padding: 30px;
-        width: 300px; /* Lebar pop-up */
-        box-shadow: 0 0 12px 12px rgba(58, 56, 56, 0.5);
-        z-index: 1000;
-        text-align: center;
-      }
-      #overlay {
-        display: none;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.5);
-        z-index: 999;
-      }
+#popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 30px;
+  width: 300px; /* Lebar pop-up */
+  box-shadow: 0 0 12px 12px rgba(58, 56, 56, 0.5);
+  z-index: 1000;
+  text-align: center;
+}
+#overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
 
-      p {font-size: xx-small;}
+p {
+  font-size: xx-small;
+}
 
-    .input-grid {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-        justify-content: space-between;
-    }
-    .input-column {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        flex: 1 1 45%;
-    }
-    .input-block {
-        margin: 0 10px;
-    }
-    .input-block label {
-        font-size: 16px;
-        margin-bottom: 5px;
-        display: block;
-        font-weight: bold;
-    }
-    .input-block input {
-        width: 100%;
-        padding: 8px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        font-size: 16px;
-        text-align: center;
-    }
+.input-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+.input-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1 1 45%;
+}
+.input-block {
+  margin: 0 10px;
+}
+.input-block label {
+  font-size: 16px;
+  margin-bottom: 5px;
+  display: block;
+  font-weight: bold;
+}
+.input-block input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  text-align: center;
+}
